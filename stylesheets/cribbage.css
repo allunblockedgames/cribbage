@@ -1,0 +1,92 @@
+body {
+  letter-spacing: -0.01rem;
+}
+
+a {
+  color: #2a7cd3;
+}
+
+.nav-background {
+    background-color: #3c0c01;
+    background-image: url(/images/site-backgrounds/leather.png);
+    background-size: 150px;
+}
+
+nav.navbar {
+  padding: 0.1em !important;
+  font-size: 14px !important;
+  z-index: 100;
+  background: linear-gradient( 180deg, #00000000 60%, #ffffff11 90%, #00000033 100% );
+  box-shadow: 0px 2px 5px #00000066;
+}
+
+nav.navbar a, nav.navbar span, nav.navbar .nav-item.dropdown a.nav-link {
+  color: #ffe2d1;
+  font-size: 0.8rem;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+}
+
+#game-container {
+  box-shadow: inset 0px 0px 100px #00000066;
+}
+
+#adSidebarContainer {
+  margin-top: 0px;
+  height: inherit;
+  min-height: 900px;
+}
+
+.adContainer {
+  margin-bottom: 10px;
+}
+
+.container h1,
+.container h2 {
+  color: #137113;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.container h3 {
+  color: #5e9952;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.container h4,
+.container h5 {
+  color: #005000;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 20px 0px;
+}
+
+.btn {
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  line-height: 1;
+  padding: 0.5em 0.4em;
+  position: relative;
+  /* text-transform: uppercase; */
+  font-size: 1.2em;
+  /* letter-spacing: .05em; */
+  font-weight: 800;
+  border-radius: 8px;
+  text-shadow:
+    -1px -1px 1px rgba(0, 0, 0, 0.2),
+    0px 2px 1px rgba(255, 255, 255, 0.15);
+}
+
+.btn.btn-success {
+  background-color: #218838;
+  border-color: #105a21;
+  text-shadow: 1px 1px 0px #0d441a;
+}
+
+.menu_view {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) !important;
+}

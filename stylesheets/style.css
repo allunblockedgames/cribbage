@@ -1,0 +1,533 @@
+footer span, footer a {
+  margin-right: 2em;
+  color: #666;
+}
+
+.ajaxlink {
+  cursor: pointer;
+  color: #007bff;
+}
+
+#helpModal h4 {
+  font-size: 1.0em;
+}
+.sgg-btn.ajaxlink, .sgg-btn.ajaxlink:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ajaxlink:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.converting {
+  padding: 10px;
+  background-color: white;
+  color: gray;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 2.0em;
+  z-index: 10000;
+  display: none;
+}
+
+.luckiest-guy {
+  font-family: 'Luckiest Guy'; sans-serif;
+}
+/* LOGO */
+.navbar {
+    /* iframe empty navbar hack; needs fixing */
+    padding: 0 0.5em;
+}
+span.navbar-brand {
+  font-weight: 300;
+  font-size: 0.85em;
+  margin-bottom: -1px;
+}
+a.navbar-brand.le-jeu-solitaire img {
+    width: 150px;
+}
+
+span.sol {
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar-brand img {
+        width: 28vw;
+        max-width: 330px;
+    }
+}
+
+h1.game-title {
+  color: #fff;
+}
+
+#nav-title {
+  display: none;
+}
+
+.nav-item.l-border {
+  border-left: 1px solid #ccc;
+}
+
+.timer_container {
+}
+.edition .timer_container {
+  margin-top: -7px;
+}
+.timer_container .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#ot-sdk-btn.ot-sdk-show-settings,
+#ot-sdk-btn.optanon-show-settings {
+  font-size: 1em !important;
+  color: #666 !important;
+  padding: 0px !important;
+  border: 0px !important;
+}
+
+#ot-sdk-btn.ot-sdk-show-settings:hover {
+  background-color: white !important;
+}
+
+
+.edition .timer_container #info-box {
+  left: initial;
+  right: 10px;
+}
+
+.game_container {
+}
+
+.game-description {
+  height: 15vh;
+  overflow: auto;
+}
+
+.timer_container.work_nav {
+  background-color: #ffffff;
+  border-bottom: 4px solid white;
+}
+
+.timer_container.work_nav #turns, .timer_container.work_nav #turnCount {
+  color: #999;
+}
+
+.menu-buttons .btn.btn-clear {
+  color: #efefef;
+  background-color: rgba(0,0,0,0.2);
+  text-shadow: none;
+  box-shadow: none;
+}
+.timer-icon {
+  background-color: rgba(0,0,0,0.2);
+  padding: 0px 2px;
+  border-radius: 5px;
+  min-width: 24px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+.inner-btn {
+  font-size: .9em;
+  line-height: .9;
+  background-color: rgba(0,0,0,0.2);
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  padding: 4px 6px 4px;
+  border-radius: 5px;
+  margin-left: 3px;
+  min-width: 30px;
+}
+
+#info-box {
+  font-size: 0.65em;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 600;
+  display: inline-block;
+  position: absolute;
+  bottom: 1px;
+  left: 10px;
+}
+img.sponsor { display:none; }
+
+#caption {
+  border-radius: 5px;
+  width: 0%;
+  opacity: 0;
+  padding: 5px;
+}
+
+.row.menu-buttons {
+  color: #ffffff;
+  margin-left:-5px;
+}
+.menu-buttons .btn,
+.sgg-btn,
+.sgg-container .btn {
+  line-height: 1;
+  padding: 5px 6px 5px 6px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: .75em;
+  letter-spacing: .05em;
+  font-weight: 600;
+  text-shadow: -1px -1px 1px rgba(0,0,0,0.2), 0px 2px 1px rgba(255,255,255,0.15);
+}
+
+span.edition-soli-link {
+  font-size: 0.8em;
+}
+
+.menu-buttons .btn.edition-soli-link {
+  text-transform: capitalize;
+}
+
+.menu-buttons .dropdown {
+  display: inline-block;
+}
+
+.menu-buttons .btn,
+.sgg-btn,
+.sgg-container .btn {
+  border-radius: 6px;
+  box-shadow: 2px -2px 2px rgba(0,0,0,0.1), 0px 1px 2px rgba(255,255,255,0.1);
+}
+
+#all-games h5 {
+  margin-bottom: 0px;
+}
+#pauseTimer, #turns, #undo,#turnCount, #workMode {
+  cursor: pointer;
+  color: #ffffff;
+}
+#turnCount {
+  min-width: 36px;
+  display: inline-block;
+}
+
+#pauseTimer {
+  min-width: 47px;
+  display: inline-block;
+}
+.timer-icon {
+  /* min-width: 28px;
+  display: inline-block; */
+}
+
+#turns {
+  cursor: default;
+}
+#winner {
+  position: absolute;
+}
+
+#congrats  .congrats-bottom {
+    padding-top: 23px;
+}
+#congrats .btn {
+    padding: .275rem .75rem;
+    border-radius: .45rem;
+}
+#congrats .table-sm td {
+    padding: .3rem 0;
+}
+#congrats .table-sm .bg-warning td:first-of-type {
+    padding-left: .4rem;
+}
+#congrats .table-sm .bg-warning td:last-of-type {
+    padding-right: .4rem;
+}
+
+#congrats {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    background: rgba(255,255,255,.95);
+    padding: 5vh 4vh 4vh 4vh;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 44px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px 5px rgba(0,0,0,0.55);
+    text-align: center;
+}
+
+#congrats .congrats_text {
+    color: #333;
+    text-shadow: none;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 5vh;
+}
+#congrats .social_share {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 1.3em;
+}
+
+#congrats .congrats-stats {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 1em;
+}
+
+#congrats .highscore-body {
+  max-height: 270px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-transform: capitalize;
+
+}
+
+#congrats .highscore-body .table {
+  margin-bottom: 0rem;
+}
+.page-link {
+  font-size: 1.2em;
+}
+.post img { max-width: 100%; }
+
+.complete_container {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  width: 90%;
+  text-align: center;
+}
+
+.version {
+  color: gray;
+}
+
+.cc-window.cc-banner,.cc-window.cc-floating {
+  width: 40%;
+  margin-left: 30%;
+  font-size: 0.7em;
+}
+
+#timerContainer h1 {
+  font-size: 1.5em;
+  display: inline-block;
+  margin-bottom: 0px;
+  position: relative;
+  font-weight: 300;
+  top: 2px;
+  margin-right: 10px;
+}
+
+#timerContainer.landscape-orientation {
+  position: absolute;
+  right: 0px;
+  width: 20vw !important;
+}
+#timerContainer.landscape-orientation .btn {
+  display: block;
+  clear: both;
+  margin-top: 10px;
+}
+
+#timerContainer.landscape-orientation .menu-buttons .btn.turns {
+  padding-right: 0px;
+}
+
+.landscape-orientation #info-box {
+  bottom: -40px;
+}
+
+.landscape-orientation #info-box .move-section {
+  display: block;
+  margin-top: 5px;
+}
+
+#timerContainer.landscape-orientation .menu-buttons .btn.turns .inner-btn {
+  display: block;
+  clear: both;
+  position: relative;
+}
+
+.btn-gotd {
+  cursor: text;
+}
+.btn-gotd:hover,.btn-gotd:focus,.btn-gotd:active {
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+.btn-gotd .badge {
+  top: -1px;
+  display: inline;
+}
+
+#gotd {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0,0,0,0.2);
+  display: inline;
+  border-radius: 5px;
+  color: white;
+}
+
+#gotd {
+  font-family: 'Luckiest Guy', sans-serif;
+}
+
+#gameStatusMessage {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: inline-block;
+}
+
+.custom-card-back img, .custom-card-deck {
+  border: 2px solid #fff;
+}
+
+.custom-card-deck img {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.custom-card-back img {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.custom-card-back .cardBackSelected, .custom-card-deck.cardBackSelected {
+  border: 2px solid #666;
+}
+
+.custom-card-deck {
+  text-align: center;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+
+#colorPicker {
+  width: 60px;
+  height: 60px;
+}
+
+#adSidebarContainer {
+  flex: 0 0 405px;
+  height: 100vh;
+  overflow-x: hidden;
+  margin-top: -32px;
+  position: relative;
+}
+
+@media (max-width: 770px) {
+  #adSidebarContainer {
+    display: none;
+  }
+  #adSidebarContainer ins {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .cc-window.cc-banner,.cc-window.cc-floating {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 0.7em;
+  }
+
+
+  #info-box {
+    position: absolute;
+    top: initial;
+    right: initial;
+    bottom: 1px;
+  }
+
+  .nav-item.l-border{
+    border-left: 0px;
+    margin-left: 0px;
+    padding-left: 0px !important;
+  }
+
+  li.nav-item {
+    margin: 5px 0px;
+  }
+  .row.menu-buttons .btn {
+    /* display: block; */
+    margin-bottom: 5px;
+  }
+  .row.menu-buttons .btn, .row.menu-buttons a {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 420px) {
+  #gameStatusMessage {
+    position: absolute;
+    bottom: 200px;
+    left: 10px;
+    display: inline-block;
+  }
+
+  #info-box {
+    bottom: -20px;
+  }
+  .row.menu-buttons .btn, .row.menu-buttons a {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 0.6em;
+  }
+  #timerContainer .mr-2 {
+    margin-right: .2rem !important;
+
+  }
+  #timerContainer {
+    margin-bottom: -7px;
+    position: absolute;
+    bottom: 70px;
+  }
+  #timerContainer h1 {
+      display: inline-block;
+      margin-bottom: 0px;
+      position: relative;
+      font-weight: 300;
+      top: -2px;
+      margin-right: 5px;
+      padding: 3px 5px;
+      font-size: .9em;
+      line-height: 1.1;
+  }
+  .mr-2, .mx-2 {
+      margin-right: 5px;
+  }
+  #pauseTimer {
+      min-width: inherit;
+      display: inline-block;
+      padding-right: 5px;
+  }
+  #turnCount {
+      min-width: inherit;
+      display: inline-block;
+      margin-right: 5px;
+  }
+
+  .game-description {
+    height: 7vh;
+  }
+  .page-link {
+    font-size: 1em;
+  }
+}
